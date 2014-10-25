@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="center"
+        android:src="@drawable/mccw" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/tvabout"
+    android:layout_width="321dp"
+    android:layout_height="131dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:text="Minecraft Colony Wars is a revolutionary Mini-Game where teams battle it out to the end. Mine for Gold and build grand hermitages where you can equip magical weapons to help you win."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/Black" />
+
+<TextView
+    android:id="@+id/tvabout1"
+    android:layout_width="321dp"
+    android:layout_height="162dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:text="When the game starts, all players are split into 4 teams. The players on the teams will then be sorted into different classes. When that is done, you and your team, will have to collect money. You collect money by chopping trees or mining gold."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/Black" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_weight="0.74" >
+
+    <Button
+        android:id="@+id/mccwb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mccwb2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/mccwb2"
+        android:background="@drawable/mccwbutton"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Maps"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/mccwb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mccwb4"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mccwbutton"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Leaderboard"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/mccwb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mccwb2"
+        android:layout_alignBottom="@+id/mccwb2"
+        android:layout_alignLeft="@+id/mccwb1"
+        android:layout_alignRight="@+id/mccwb1"
+        android:background="@drawable/mccwbutton"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Classes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/mccwb1"
+        style="@drawable/mccwbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mccwb2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/mccwbutton"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Gameplay"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+</RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

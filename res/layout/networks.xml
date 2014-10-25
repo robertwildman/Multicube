@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:gravity="top" >
+
+     <TextView
+         android:id="@+id/tvnetworks"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="Social Networks"
+         android:textAlignment="center"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White"
+         android:textSize="40sp" />
+
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/tvnetworks" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Twitter"
+                 android:textAppearance="?android:attr/textAppearanceLarge" 
+                 android:textSize="32sp"
+                 android:layout_marginTop="20sp"
+                 android:textColor="@color/White"/>
+
+             <TextView
+                 android:id="@+id/tvnetb1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginBottom="20sp"
+                 android:text=" @Multi_Cube"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/White"
+                 android:textSize="32sp" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Twitch"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/White"
+                 android:textSize="32sp" />
+
+             <TextView
+                 android:id="@+id/tvnetb2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginBottom="20sp"
+                 android:text="multicubelive"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/White"
+                 android:textSize="32sp" />
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Facebook"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textColor="@color/White"
+                  android:textSize="32sp" />
+
+             <TextView
+                 android:id="@+id/tvnetb3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="MultiCubeMC"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/White"
+                 android:textSize="32sp" />
+             
+
+         </LinearLayout>
+     </ScrollView>
+
+</RelativeLayout>

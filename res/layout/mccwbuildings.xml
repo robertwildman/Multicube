@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:gravity="center_horizontal" > >
+
+    
+
+    <Spinner
+        android:id="@+id/spbuild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/building_arrays" />
+
+    <TextView
+        android:id="@+id/tvmccwbuildtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spbuild"
+        android:layout_centerHorizontal="true"
+        android:text="Buliding Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:id="@+id/tvmccwbuilddesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvmccwbuildtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Infomation about the buildings"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="center"
+        android:src="@drawable/mccw" />
+    
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/Newsitem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsinfo"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem1"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+    
+    <TextView
+        android:id="@+id/Newsitem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem2"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem3"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem4"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem5"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem6"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News7"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsitem8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem7"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News8"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:id="@+id/Newsitem9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Newsitem8"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:text="@string/News9"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/Newsinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="News"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="@color/White" />
+
+</RelativeLayout>

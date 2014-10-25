@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:gravity="top" > >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mccw" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvmccwbuildtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="The Basics:"
+                android:textColor="@color/White"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvsyndmainb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When the game starts, all players are split into 4 teams. The players on the teams will then be sorted into different classes. You and your team will need to collect gold through mining or chopping trees. 40% of this money goes towards the team balance while 60% of this money goes towards your personal balance."
+                android:textColor="@color/White"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvmccwgpb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                
+                android:textColor="@color/White"
+                android:layout_marginTop="10dp"
+                android:text="Buildings"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvsyndmainb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Tips and Tricks:"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/White"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                
+                android:layout_marginTop="5dp"
+                android:text="Right clicking enderchests will give you a large amount of money, anywhere between $10k-$50k. - If a player is not abiding to the rules or destroying the team base, you can use the /votekick command to kick them."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                
+                android:layout_marginTop="10dp"
+                android:text="Press TAB to see how many players are left on the different teams. - Don&apos;t try to chat to people on other teams. They are in a different chat channel than you. -Open up shop GUIs by rightclicking shop blocks."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                
+                android:layout_marginTop="10dp"
+                android:text="When you die, click to bring up a spectating menu. Click a player of your choice to spectate them."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

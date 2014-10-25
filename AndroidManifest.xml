@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.wildapps.multicube"
+	 android:versionCode="5"
+	android:versionName="Alpha part 2">
+
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application android:allowBackup="true" android:icon="@drawable/ic_launcher"
+		android:theme="@style/CustomActionBarTheme"
+		android:hardwareAccelerated="true"
+		android:label="Multicube">
+		<activity android:name="com.wildapps.multicube.Nav_Main"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.wildapps.multicube.About" />
+		<activity android:name="com.wildapps.multicube.Antipvpmain" />
+		<activity android:name="com.wildapps.multicube.CupMain" />
+		<activity android:name="com.wildapps.multicube.Superjumparenas" />
+		<activity android:name="com.wildapps.multicube.Diamondbuy" />
+		<activity android:name="com.wildapps.multicube.Donate" />
+		<activity android:name="com.wildapps.multicube.Antipvpleader" />
+		<activity android:name="com.wildapps.multicube.Ironbuy" />
+		<activity android:name="com.wildapps.multicube.Goldbuy" />
+		<activity android:name="com.wildapps.multicube.leaderboard" />
+		<activity android:name="com.wildapps.multicube.Live" />
+		<activity android:name="com.wildapps.multicube.News" />
+		<activity android:name="com.wildapps.multicube.Mccw" />
+		<activity android:name="com.wildapps.multicube.Staff" />
+		<activity android:name="com.wildapps.multicube.Networks" />
+		<activity android:name="com.wildapps.multicube.Mccwmap" />
+		<activity android:name="com.wildapps.multicube.Mccwbuild" />
+		<activity android:name="com.wildapps.multicube.Mccwgp" />
+		<activity android:name="com.wildapps.multicube.Mccwclass" />
+		<activity android:name="com.wildapps.multicube.Mccwleaderboard" />
+		<activity android:name="com.wildapps.multicube.Syndweb" />
+		<activity android:name="com.wildapps.multicube.Syndarena" />
+		<activity android:name="com.wildapps.multicube.Syndmain" />
+		<activity android:name="com.wildapps.multicube.Superjumpmain" />
+		<activity android:name="com.wildapps.multicube.Spleefmain" />
+		<activity android:name="com.wildapps.multicube.Spleefarena" />
+		<activity android:name="com.wildapps.multicube.Storemain" />
+		
+
+	</application>
+
+</manifest>

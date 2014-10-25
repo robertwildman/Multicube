@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/synd" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvsyndmaintitle"
+                android:layout_width="match_parent"
+                android:layout_height="279dp"
+                android:layout_gravity="center_horizontal"
+                android:text="An ingenious new type of mini game, originally created by Syndicate and recently adapted and greatly improved by the Multicube development team, is now live on the network. Described simply as &apos;Quickfire Hungergames&apos;, Syndicate Games incorporates features from well know plugins like &apos;Survival Games&apos; and allows 2 players to engage in a fierce, swift combat experience. Unlike other servers, this seamless adventure defies what was previously thought possible by Minecrafters and continues to inspire new types of player."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/tvsyndmainb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Leaderboard"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/tvsyndmainb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Arenas"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

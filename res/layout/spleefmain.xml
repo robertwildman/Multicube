@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Multicube"
+    android:gravity="top" > >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/spleefleague" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:text="A game dedicated to the essential elements of Minecraft, digging holes. Spleef League host annual and mothly competitions, pitting players against eachother in a heated bayyle for victory of the snow. With a varying array of skills in its player base, Spleef League jas an eqial oppoent for everyone, regardless of experience and is quickly becoming the home for any potential spleef pro."
+        android:textColor="@color/White"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvnetb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:text="Arenas"
+        android:textColor="@color/White"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
